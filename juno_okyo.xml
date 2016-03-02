@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html>
+<html b:version='2' class='v2' expr:dir='data:blog.languageDirection' xmlns='http://www.w3.org/1999/xhtml' xmlns:b='http://www.google.com/2005/gml/b' xmlns:data='http://www.google.com/2005/gml/data' xmlns:expr='http://www.google.com/2005/gml/expr'>
+	<head>
+		<meta charset='UTF-8'/>
+		<meta expr:content='data:blog.isMobile ? &quot;width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0&quot; : &quot;width=1100&quot;' name='viewport'/>
+		
+		<!-- Default head contents -->
+		<b:include data='blog' name='all-head-content'/>
+		<!-- //Default head contents -->
+		
+		<title><data:blog.pageTitle/></title>
+
+		<!-- Remove default CSS files -->
+		&lt;!--<style type='text/css'/>--&gt;
+		<b:skin><![CDATA[
+		/* ADD YOUR CSS HERE */
+		]]></b:skin>
+		<!-- //Remove default CSS files -->
+
+		<b:include data='blog' name='google-analytics'/>
+	</head>
+	<body>
+		<b:section id='header' class='header' maxwidgets='1' showaddelement='no'>
+
+		</b:section>
+
+	<!-- Remove default JavaScript code -->
+	&lt;!--</body>--&gt;&lt;/body&gt;
+	<!-- //Remove default JavaScript code -->
+</html>
