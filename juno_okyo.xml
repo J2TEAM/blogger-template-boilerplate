@@ -21,7 +21,7 @@
 		<b:include data='blog' name='google-analytics'/>
 	</head>
 	<body>
-		<b:section id='header' class='header' maxwidgets='1' showaddelement='no'>
+		<b:section id='header' class='header' showaddelement='yes'>
 
 		</b:section>
 
